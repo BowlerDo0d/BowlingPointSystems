@@ -1,0 +1,1474 @@
+[
+  {
+    "team_number": 1,
+    "team_name": "Instr. Bowling by Ray",
+    "roster": [
+      {
+        "name": "Christian Morel",
+        "avg": 207,
+        "game1": 190,
+        "game2": 236,
+        "game3": 201,
+        "total": 627
+      },
+      {
+        "name": "Jason Wunderlich",
+        "avg": 223,
+        "game1": 257,
+        "game2": 232,
+        "game3": 157,
+        "total": 646
+      },
+      {
+        "name": "Alex Houston",
+        "avg": 221,
+        "game1": 208,
+        "game2": 203,
+        "game3": 207,
+        "total": 618
+      },
+      {
+        "name": "Paul Schink",
+        "avg": 218,
+        "game1": 191,
+        "game2": 195,
+        "game3": 268,
+        "total": 654
+      },
+      {
+        "name": "Jeff Schink",
+        "avg": 221,
+        "game1": 247,
+        "game2": 215,
+        "game3": 209,
+        "total": 671
+      }
+    ]
+  },
+  {
+    "team_number": 2,
+    "team_name": "Shelly Drilling",
+    "roster": [
+      {
+        "name": "Tina Balest",
+        "avg": 215,
+        "game1": 235,
+        "game2": 237,
+        "game3": 189,
+        "total": 661
+      },
+      {
+        "name": "Patrick Hoke",
+        "avg": 206,
+        "game1": 245,
+        "game2": 247,
+        "game3": 201,
+        "total": 693
+      },
+      {
+        "name": "Mike Balest",
+        "avg": 214,
+        "game1": 168,
+        "game2": 161,
+        "game3": 148,
+        "total": 477
+      },
+      {
+        "name": "Ryan Parise",
+        "avg": 225,
+        "game1": 206,
+        "game2": 258,
+        "game3": 269,
+        "total": 733
+      },
+      {
+        "name": "Max Barnyk",
+        "avg": 223,
+        "game1": 209,
+        "game2": 201,
+        "game3": 212,
+        "total": 622
+      }
+    ]
+  },
+  {
+    "team_number": 3,
+    "team_name": "Mentally Disturbed",
+    "roster": [
+      {
+        "name": "Nathan Wislosky",
+        "avg": 197,
+        "game1": 218,
+        "game2": 181,
+        "game3": 256,
+        "total": 655
+      },
+      {
+        "name": "Scott Humphries",
+        "avg": 207,
+        "game1": 174,
+        "game2": 203,
+        "game3": 199,
+        "total": 576
+      },
+      {
+        "name": "Shane Connelly",
+        "avg": 217,
+        "game1": 207,
+        "game2": 181,
+        "game3": 238,
+        "total": 626
+      },
+      {
+        "name": "Damion Mannion",
+        "avg": 223,
+        "game1": 227,
+        "game2": 225,
+        "game3": 236,
+        "total": 688
+      },
+      {
+        "name": "Dale Humphries",
+        "avg": 213,
+        "game1": 212,
+        "game2": 159,
+        "game3": 214,
+        "total": 585
+      }
+    ]
+  },
+  {
+    "team_number": 4,
+    "team_name": "Duff's Pro shop",
+    "roster": [
+      {
+        "name": "Ed Dufek",
+        "avg": 216,
+        "game1": 167,
+        "game2": 215,
+        "game3": 171,
+        "total": 553
+      },
+      {
+        "name": "MikeSr Mesko",
+        "avg": 198,
+        "game1": 178,
+        "game2": 181,
+        "game3": 134,
+        "total": 493
+      },
+      {
+        "name": "EricJr Armbruster",
+        "avg": 218,
+        "game1": 244,
+        "game2": 190,
+        "game3": 173,
+        "total": 607
+      },
+      {
+        "name": "Anthony Strickland",
+        "avg": 215,
+        "game1": 172,
+        "game2": 202,
+        "game3": 245,
+        "total": 619
+      },
+      {
+        "name": "Bill Cottone",
+        "avg": 215,
+        "game1": 239,
+        "game2": 208,
+        "game3": 199,
+        "total": 646
+      }
+    ]
+  },
+  {
+    "team_number": 5,
+    "team_name": "Connected Energy Group",
+    "roster": [
+      {
+        "name": "Jacob Bostedo",
+        "avg": 210,
+        "game1": 141,
+        "game2": 231,
+        "game3": 198,
+        "total": 570
+      },
+      {
+        "name": "John Bostedo",
+        "avg": 207,
+        "game1": 188,
+        "game2": 168,
+        "game3": 163,
+        "total": 519
+      },
+      {
+        "name": "Nathan Bostedo",
+        "avg": 211,
+        "game1": 237,
+        "game2": 159,
+        "game3": 183,
+        "total": 579
+      },
+      {
+        "name": "Carl Bogesdorfer",
+        "avg": 218,
+        "game1": 256,
+        "game2": 199,
+        "game3": 140,
+        "total": 595
+      },
+      {
+        "name": "Carlo Kazmierczyk",
+        "avg": 217,
+        "game1": 237,
+        "game2": 283,
+        "game3": 205,
+        "total": 725
+      }
+    ]
+  },
+  {
+    "team_number": 6,
+    "team_name": "10th Frame Jimmy",
+    "roster": [
+      {
+        "name": "James Thompson",
+        "avg": 198,
+        "game1": 201,
+        "game2": 201,
+        "game3": 202,
+        "total": 604
+      },
+      {
+        "name": "Corey Shedlock",
+        "avg": 202,
+        "game1": 178,
+        "game2": 211,
+        "game3": 240,
+        "total": 629
+      },
+      {
+        "name": "Joshua Marks",
+        "avg": 218,
+        "game1": 203,
+        "game2": 235,
+        "game3": 232,
+        "total": 670
+      },
+      {
+        "name": "James Hiles",
+        "avg": 216,
+        "game1": 214,
+        "game2": 208,
+        "game3": 238,
+        "total": 660
+      },
+      {
+        "name": "Don Mccaskey",
+        "avg": 215,
+        "game1": 170,
+        "game2": 278,
+        "game3": 279,
+        "total": 727
+      }
+    ]
+  },
+  {
+    "team_number": 7,
+    "team_name": "Tender Tips",
+    "roster": [
+      {
+        "name": "Chris Fekete",
+        "avg": 199,
+        "game1": 160,
+        "game2": 201,
+        "game3": 202,
+        "total": 563
+      },
+      {
+        "name": "Christopher Turek",
+        "avg": 207,
+        "game1": 195,
+        "game2": 214,
+        "game3": 207,
+        "total": 616
+      },
+      {
+        "name": "Edward Lundy",
+        "avg": 217,
+        "game1": 200,
+        "game2": 188,
+        "game3": 166,
+        "total": 554
+      },
+      {
+        "name": "Mike Fekete",
+        "avg": 212,
+        "game1": 202,
+        "game2": 256,
+        "game3": 211,
+        "total": 669
+      },
+      {
+        "name": "Jacob Verbanec",
+        "avg": 213,
+        "game1": 199,
+        "game2": 191,
+        "game3": 198,
+        "total": 588
+      }
+    ]
+  },
+  {
+    "team_number": 8,
+    "team_name": "Appl.Warehouse",
+    "roster": [
+      {
+        "name": "Anthony Volgen",
+        "avg": 216,
+        "game1": 241,
+        "game2": 171,
+        "game3": 203,
+        "total": 615
+      },
+      {
+        "name": "Nick Marino",
+        "avg": 197,
+        "game1": 144,
+        "game2": 96,
+        "game3": 227,
+        "total": 467
+      },
+      {
+        "name": "Dave Obringer",
+        "avg": 211,
+        "game1": 236,
+        "game2": 243,
+        "game3": 225,
+        "total": 704
+      },
+      {
+        "name": "Shawn Perry",
+        "avg": 219,
+        "game1": 226,
+        "game2": 168,
+        "game3": 197,
+        "total": 591
+      },
+      {
+        "name": "Elwood Martin",
+        "avg": 209,
+        "game1": 210,
+        "game2": 200,
+        "game3": 212,
+        "total": 622
+      }
+    ]
+  },
+  {
+    "team_number": 9,
+    "team_name": "Jeff's Lock n Key Service",
+    "roster": [
+      {
+        "name": "Jeff Wagler",
+        "avg": 222,
+        "game1": 221,
+        "game2": 149,
+        "game3": 201,
+        "total": 571
+      },
+      {
+        "name": "Jim Rosgony",
+        "avg": 191,
+        "game1": 177,
+        "game2": 203,
+        "game3": 170,
+        "total": 550
+      },
+      {
+        "name": "George Logue",
+        "avg": 200,
+        "game1": 176,
+        "game2": 201,
+        "game3": 134,
+        "total": 511
+      },
+      {
+        "name": "Steve Mahony",
+        "avg": 221,
+        "game1": 223,
+        "game2": 224,
+        "game3": 192,
+        "total": 639
+      },
+      {
+        "name": "Mark Vargo",
+        "avg": 217,
+        "game1": 229,
+        "game2": 222,
+        "game3": 169,
+        "total": 620
+      }
+    ]
+  },
+  {
+    "team_number": 10,
+    "team_name": "American Girth",
+    "roster": [
+      {
+        "name": "Luke Hils",
+        "avg": 218,
+        "game1": 181,
+        "game2": 245,
+        "game3": 258,
+        "total": 684
+      },
+      {
+        "name": "Dustin Welsh",
+        "avg": 207,
+        "game1": 202,
+        "game2": 300,
+        "game3": 245,
+        "total": 747
+      },
+      {
+        "name": "Karl Hils",
+        "avg": 192,
+        "game1": 156,
+        "game2": 179,
+        "game3": 196,
+        "total": 531
+      },
+      {
+        "name": "Steve Carr",
+        "avg": 221,
+        "game1": 268,
+        "game2": 216,
+        "game3": 221,
+        "total": 705
+      },
+      {
+        "name": "Cedric Hils",
+        "avg": 221,
+        "game1": 231,
+        "game2": 180,
+        "game3": 229,
+        "total": 640
+      }
+    ]
+  },
+  {
+    "team_number": 11,
+    "team_name": "Barrett Chiropractic",
+    "roster": [
+      {
+        "name": "Robert Bingham",
+        "avg": 201,
+        "game1": 225,
+        "game2": 189,
+        "game3": 182,
+        "total": 596
+      },
+      {
+        "name": "Pete Wuycheck",
+        "avg": 193,
+        "game1": 201,
+        "game2": 224,
+        "game3": 194,
+        "total": 619
+      },
+      {
+        "name": "James Cole",
+        "avg": 211,
+        "game1": 244,
+        "game2": 230,
+        "game3": 187,
+        "total": 661
+      },
+      {
+        "name": "Scott Miller",
+        "avg": 210,
+        "game1": 225,
+        "game2": 217,
+        "game3": 235,
+        "total": 677
+      },
+      {
+        "name": "Sam Orr",
+        "avg": 222,
+        "game1": 212,
+        "game2": 234,
+        "game3": 209,
+        "total": 655
+      }
+    ]
+  },
+  {
+    "team_number": 12,
+    "team_name": "Yankers",
+    "roster": [
+      {
+        "name": "Bob Christopher",
+        "avg": 188,
+        "game1": 190,
+        "game2": 183,
+        "game3": 197,
+        "total": 570
+      },
+      {
+        "name": "Deanna Dirado",
+        "avg": 210,
+        "game1": 202,
+        "game2": 192,
+        "game3": 247,
+        "total": 641
+      },
+      {
+        "name": "Greg Schwamberger",
+        "avg": 220,
+        "game1": 217,
+        "game2": 279,
+        "game3": 180,
+        "total": 676
+      },
+      {
+        "name": "Dan Conn",
+        "avg": 208,
+        "game1": 147,
+        "game2": 195,
+        "game3": 184,
+        "total": 526
+      },
+      {
+        "name": "Dave Diess",
+        "avg": 200,
+        "game1": 174,
+        "game2": 168,
+        "game3": 167,
+        "total": 509
+      }
+    ]
+  },
+  {
+    "team_number": 13,
+    "team_name": "4 Dudes & a Dud",
+    "roster": [
+      {
+        "name": "Dan Watson",
+        "avg": 207,
+        "game1": 213,
+        "game2": 176,
+        "game3": 199,
+        "total": 588
+      },
+      {
+        "name": "Chuck Schultz",
+        "avg": 201,
+        "game1": 166,
+        "game2": 170,
+        "game3": 201,
+        "total": 537
+      },
+      {
+        "name": "Dave Dean",
+        "avg": 197,
+        "game1": 226,
+        "game2": 193,
+        "game3": 206,
+        "total": 625
+      },
+      {
+        "name": "Mike Suprak",
+        "avg": 206,
+        "game1": 181,
+        "game2": 168,
+        "game3": 234,
+        "total": 583
+      },
+      {
+        "name": "Ken Rakoczy",
+        "avg": 217,
+        "game1": 202,
+        "game2": 178,
+        "game3": 196,
+        "total": 576
+      }
+    ]
+  },
+  {
+    "team_number": 14,
+    "team_name": "John's Garage",
+    "roster": [
+      {
+        "name": "Cameron Munsie",
+        "avg": 206,
+        "game1": 170,
+        "game2": 174,
+        "game3": 150,
+        "total": 494
+      },
+      {
+        "name": "Dave Sterrett",
+        "avg": 181,
+        "game1": 171,
+        "game2": 189,
+        "game3": 137,
+        "total": 497
+      },
+      {
+        "name": "Danielle Long",
+        "avg": 198,
+        "game1": 180,
+        "game2": 200,
+        "game3": 173,
+        "total": 553
+      },
+      {
+        "name": "Kyle Raleigh",
+        "avg": 216,
+        "game1": 158,
+        "game2": 223,
+        "game3": 172,
+        "total": 553
+      },
+      {
+        "name": "Tyler Sterrett",
+        "avg": 223,
+        "game1": 135,
+        "game2": 221,
+        "game3": 163,
+        "total": 519
+      }
+    ]
+  },
+  {
+    "team_number": 15,
+    "team_name": "Veltres Pizza",
+    "roster": [
+      {
+        "name": "Kevin Mynahan",
+        "avg": 205,
+        "game1": 139,
+        "game2": 258,
+        "game3": 213,
+        "total": 610
+      },
+      {
+        "name": "Justin Geary",
+        "avg": 205,
+        "game1": 184,
+        "game2": 187,
+        "game3": 213,
+        "total": 584
+      },
+      {
+        "name": "Brian Heidkamp",
+        "avg": 197,
+        "game1": 199,
+        "game2": 214,
+        "game3": 216,
+        "total": 629
+      },
+      {
+        "name": "Ron Helbig",
+        "avg": 198,
+        "game1": 165,
+        "game2": 196,
+        "game3": 167,
+        "total": 528
+      },
+      {
+        "name": "David Depaul",
+        "avg": 218,
+        "game1": 180,
+        "game2": 205,
+        "game3": 227,
+        "total": 612
+      }
+    ]
+  },
+  {
+    "team_number": 16,
+    "team_name": "Ship of Fools",
+    "roster": [
+      {
+        "name": "Coty Hank",
+        "avg": 199,
+        "game1": 164,
+        "game2": 125,
+        "game3": 180,
+        "total": 469
+      },
+      {
+        "name": "Jason Rosol",
+        "avg": 181,
+        "game1": 200,
+        "game2": 173,
+        "game3": 153,
+        "total": 526
+      },
+      {
+        "name": "Richard John",
+        "avg": 195,
+        "game1": 190,
+        "game2": 195,
+        "game3": 197,
+        "total": 582
+      },
+      {
+        "name": "Douglas Lee",
+        "avg": 228,
+        "game1": 176,
+        "game2": 178,
+        "game3": 208,
+        "total": 562
+      },
+      {
+        "name": "Mike Barvinchak",
+        "avg": 216,
+        "game1": 249,
+        "game2": 198,
+        "game3": 213,
+        "total": 660
+      }
+    ]
+  },
+  {
+    "team_number": 17,
+    "team_name": "Crush",
+    "roster": [
+      {
+        "name": "George Amrhein",
+        "avg": 213,
+        "game1": 194,
+        "game2": 203,
+        "game3": 212,
+        "total": 609
+      },
+      {
+        "name": "Robin Walker",
+        "avg": 185,
+        "game1": 146,
+        "game2": 184,
+        "game3": 167,
+        "total": 497
+      },
+      {
+        "name": "David Jeffries",
+        "avg": 205,
+        "game1": 181,
+        "game2": 159,
+        "game3": 200,
+        "total": 540
+      },
+      {
+        "name": "Craig Thomas",
+        "avg": 207,
+        "game1": 180,
+        "game2": 169,
+        "game3": 204,
+        "total": 553
+      },
+      {
+        "name": "Damon Gross",
+        "avg": 214,
+        "game1": 279,
+        "game2": 169,
+        "game3": 214,
+        "total": 662
+      }
+    ]
+  },
+  {
+    "team_number": 18,
+    "team_name": "R & R Painting",
+    "roster": [
+      {
+        "name": "James Jenkins",
+        "avg": 175,
+        "game1": 181,
+        "game2": 210,
+        "game3": 210,
+        "total": 601
+      },
+      {
+        "name": "EdJr Zeglen",
+        "avg": 180,
+        "game1": 150,
+        "game2": 206,
+        "game3": 188,
+        "total": 544
+      },
+      {
+        "name": "Harold Jenkins",
+        "avg": 203,
+        "game1": 200,
+        "game2": 213,
+        "game3": 211,
+        "total": 624
+      },
+      {
+        "name": "Thomas Jett",
+        "avg": 191,
+        "game1": 208,
+        "game2": 172,
+        "game3": 180,
+        "total": 560
+      },
+      {
+        "name": "Chuck Cashdollar",
+        "avg": 202,
+        "game1": 153,
+        "game2": 207,
+        "game3": 197,
+        "total": 557
+      }
+    ]
+  },
+  {
+    "team_number": 19,
+    "team_name": "412 Lab",
+    "roster": [
+      {
+        "name": "Rob Downer",
+        "avg": 222,
+        "game1": 234,
+        "game2": 254,
+        "game3": 204,
+        "total": 692
+      },
+      {
+        "name": "Dave Harris",
+        "avg": 212,
+        "game1": 247,
+        "game2": 235,
+        "game3": 198,
+        "total": 680
+      },
+      {
+        "name": "Tonya Maye",
+        "avg": 218,
+        "game1": 179,
+        "game2": 257,
+        "game3": 212,
+        "total": 648
+      },
+      {
+        "name": "Ed Fields",
+        "avg": 219,
+        "game1": 208,
+        "game2": 204,
+        "game3": 246,
+        "total": 658
+      },
+      {
+        "name": "Walt Oliver",
+        "avg": 229,
+        "game1": 227,
+        "game2": 227,
+        "game3": 187,
+        "total": 641
+      }
+    ]
+  },
+  {
+    "team_number": 20,
+    "team_name": "Mulligan's Sports Bar & GRILL",
+    "roster": [
+      {
+        "name": "Craig Goodwill",
+        "avg": 185,
+        "game1": 183,
+        "game2": 190,
+        "game3": 145,
+        "total": 518
+      },
+      {
+        "name": "Tom Karpuszka",
+        "avg": 192,
+        "game1": 179,
+        "game2": 160,
+        "game3": 189,
+        "total": 528
+      },
+      {
+        "name": "Mike Kranack",
+        "avg": 152,
+        "game1": 116,
+        "game2": 178,
+        "game3": 121,
+        "total": 415
+      },
+      {
+        "name": "John Aber",
+        "avg": 215,
+        "game1": 211,
+        "game2": 211,
+        "game3": 224,
+        "total": 646
+      },
+      {
+        "name": "Josh Thompson",
+        "avg": 235,
+        "game1": 216,
+        "game2": 237,
+        "game3": 202,
+        "total": 655
+      }
+    ]
+  },
+  {
+    "team_number": 21,
+    "team_name": "R & R Painting 2",
+    "roster": [
+      {
+        "name": "Bob Wiesen",
+        "avg": 192,
+        "game1": 199,
+        "game2": 171,
+        "game3": 148,
+        "total": 518
+      },
+      {
+        "name": "James Gallagher",
+        "avg": 192,
+        "game1": 204,
+        "game2": 190,
+        "game3": 220,
+        "total": 614
+      },
+      {
+        "name": "Mike Hall",
+        "avg": 201,
+        "game1": 146,
+        "game2": 203,
+        "game3": 191,
+        "total": 540
+      },
+      {
+        "name": "Bill Danzuso",
+        "avg": 187,
+        "game1": 167,
+        "game2": 182,
+        "game3": 196,
+        "total": 545
+      },
+      {
+        "name": "Joe Cima",
+        "avg": 224,
+        "game1": 165,
+        "game2": 196,
+        "game3": 213,
+        "total": 574
+      }
+    ]
+  },
+  {
+    "team_number": 22,
+    "team_name": "Appl. Warehouse 2",
+    "roster": [
+      {
+        "name": "Brian Hallett",
+        "avg": 202,
+        "game1": 237,
+        "game2": 220,
+        "game3": 179,
+        "total": 636
+      },
+      {
+        "name": "Ken Hudak",
+        "avg": 195,
+        "game1": 180,
+        "game2": 188,
+        "game3": 185,
+        "total": 553
+      },
+      {
+        "name": "Robert Umbel",
+        "avg": 215,
+        "game1": 244,
+        "game2": 222,
+        "game3": 202,
+        "total": 668
+      },
+      {
+        "name": "Mike Chojnowski",
+        "avg": 205,
+        "game1": 159,
+        "game2": 188,
+        "game3": 166,
+        "total": 513
+      },
+      {
+        "name": "Dave Davison",
+        "avg": 215,
+        "game1": 251,
+        "game2": 168,
+        "game3": 269,
+        "total": 688
+      }
+    ]
+  },
+  {
+    "team_number": 23,
+    "team_name": "4 G's an a M",
+    "roster": [
+      {
+        "name": "Jeff Greenhow",
+        "avg": 200,
+        "game1": 196,
+        "game2": 175,
+        "game3": 190,
+        "total": 561
+      },
+      {
+        "name": "Chad Cygnarowicz",
+        "avg": 216,
+        "game1": 189,
+        "game2": 214,
+        "game3": 200,
+        "total": 603
+      },
+      {
+        "name": "Kevin Gori",
+        "avg": 195,
+        "game1": 175,
+        "game2": 177,
+        "game3": 141,
+        "total": 493
+      },
+      {
+        "name": "Mike Miller",
+        "avg": 208,
+        "game1": 186,
+        "game2": 223,
+        "game3": 203,
+        "total": 612
+      },
+      {
+        "name": "Sal Gori",
+        "avg": 207,
+        "game1": 222,
+        "game2": 220,
+        "game3": 187,
+        "total": 629
+      }
+    ]
+  },
+  {
+    "team_number": 24,
+    "team_name": "Shotz",
+    "roster": [
+      {
+        "name": "Tim Kaysan",
+        "avg": 195,
+        "game1": 216,
+        "game2": 211,
+        "game3": 157,
+        "total": 584
+      },
+      {
+        "name": "Rachel Orourke",
+        "avg": 177,
+        "game1": 174,
+        "game2": 160,
+        "game3": 140,
+        "total": 474
+      },
+      {
+        "name": "Allyse Mancak",
+        "avg": 164,
+        "game1": 179,
+        "game2": 165,
+        "game3": 137,
+        "total": 481
+      },
+      {
+        "name": "Walt Fillar",
+        "avg": 208,
+        "game1": 186,
+        "game2": 175,
+        "game3": 201,
+        "total": 562
+      },
+      {
+        "name": "John Pulkownik",
+        "avg": 215,
+        "game1": 266,
+        "game2": 266,
+        "game3": 265,
+        "total": 797
+      }
+    ]
+  },
+  {
+    "team_number": 25,
+    "team_name": "Bi Polar Rollers",
+    "roster": [
+      {
+        "name": "Keith Romanowski",
+        "avg": 145,
+        "game1": 126,
+        "game2": 131,
+        "game3": 113,
+        "total": 370
+      },
+      {
+        "name": "Michael Padovano",
+        "avg": 207,
+        "game1": 197,
+        "game2": 228,
+        "game3": 192,
+        "total": 617
+      },
+      {
+        "name": "Deanne Murray",
+        "avg": 198,
+        "game1": 197,
+        "game2": 189,
+        "game3": 182,
+        "total": 568
+      },
+      {
+        "name": "Garrett Murray",
+        "avg": 195,
+        "game1": 181,
+        "game2": 192,
+        "game3": 182,
+        "total": 555
+      },
+      {
+        "name": "John Romanowski",
+        "avg": 208,
+        "game1": 178,
+        "game2": 201,
+        "game3": 178,
+        "total": 557
+      }
+    ]
+  },
+  {
+    "team_number": 26,
+    "team_name": "Tavern in the Hills",
+    "roster": [
+      {
+        "name": "Monica Depaul",
+        "avg": 155,
+        "game1": 130,
+        "game2": 176,
+        "game3": 206,
+        "total": 512
+      },
+      {
+        "name": "John Hanna",
+        "avg": 201,
+        "game1": 182,
+        "game2": 218,
+        "game3": 158,
+        "total": 558
+      },
+      {
+        "name": "ScottJr Gamble",
+        "avg": 190,
+        "game1": 211,
+        "game2": 211,
+        "game3": 221,
+        "total": 643
+      },
+      {
+        "name": "Xavier Bingham",
+        "avg": 196,
+        "game1": 212,
+        "game2": 242,
+        "game3": 187,
+        "total": 641
+      },
+      {
+        "name": "Amy Pysk",
+        "avg": 199,
+        "game1": 226,
+        "game2": 176,
+        "game3": 167,
+        "total": 569
+      }
+    ]
+  },
+  {
+    "team_number": 27,
+    "team_name": "Pleasure Pool & Deck",
+    "roster": [
+      {
+        "name": "Anthony Rusch",
+        "avg": 175,
+        "game1": 130,
+        "game2": 147,
+        "game3": 202,
+        "total": 479
+      },
+      {
+        "name": "Chase Schemm",
+        "avg": 182,
+        "game1": 197,
+        "game2": 129,
+        "game3": 157,
+        "total": 483
+      },
+      {
+        "name": "Jerrod Anthony",
+        "avg": 216,
+        "game1": 177,
+        "game2": 190,
+        "game3": 202,
+        "total": 569
+      },
+      {
+        "name": "Kirk Marburger",
+        "avg": 190,
+        "game1": 224,
+        "game2": 188,
+        "game3": 190,
+        "total": 602
+      },
+      {
+        "name": "Chad Donikowski",
+        "avg": 199,
+        "game1": 208,
+        "game2": 169,
+        "game3": 204,
+        "total": 581
+      }
+    ]
+  },
+  {
+    "team_number": 28,
+    "team_name": "TRUSS BREWING",
+    "roster": [
+      {
+        "name": "Ben Awenowicz",
+        "avg": 190,
+        "game1": 216,
+        "game2": 191,
+        "game3": 184,
+        "total": 591
+      },
+      {
+        "name": "Krista Gage",
+        "avg": 147,
+        "game1": 173,
+        "game2": 144,
+        "game3": 158,
+        "total": 475
+      },
+      {
+        "name": "Matt Hughes",
+        "avg": 184,
+        "game1": 144,
+        "game2": 199,
+        "game3": 225,
+        "total": 568
+      },
+      {
+        "name": "Jim Borowski",
+        "avg": 198,
+        "game1": 195,
+        "game2": 222,
+        "game3": 190,
+        "total": 607
+      },
+      {
+        "name": "Dan Gage",
+        "avg": 219,
+        "game1": 234,
+        "game2": 166,
+        "game3": 222,
+        "total": 622
+      }
+    ]
+  },
+  {
+    "team_number": 29,
+    "team_name": "Crushers BBQ",
+    "roster": [
+      {
+        "name": "Brian Cubakovic",
+        "avg": 190,
+        "game1": 175,
+        "game2": 153,
+        "game3": 229,
+        "total": 557
+      },
+      {
+        "name": "Matt Cubakovic",
+        "avg": 160,
+        "game1": 136,
+        "game2": 171,
+        "game3": 151,
+        "total": 458
+      },
+      {
+        "name": "Pete Poupakis",
+        "avg": 162,
+        "game1": 171,
+        "game2": 153,
+        "game3": 126,
+        "total": 450
+      },
+      {
+        "name": "DavidSr Wessant",
+        "avg": 189,
+        "game1": 186,
+        "game2": 157,
+        "game3": 167,
+        "total": 510
+      },
+      {
+        "name": "Nick Johnson",
+        "avg": 214,
+        "game1": 193,
+        "game2": 247,
+        "game3": 228,
+        "total": 668
+      }
+    ]
+  },
+  {
+    "team_number": 30,
+    "team_name": "Strikes R Us",
+    "roster": [
+      {
+        "name": "Soji Yamakawa",
+        "avg": 192,
+        "game1": 159,
+        "game2": 215,
+        "game3": 225,
+        "total": 599
+      },
+      {
+        "name": "Craig Karnes",
+        "avg": 191,
+        "game1": 137,
+        "game2": 222,
+        "game3": 191,
+        "total": 550
+      },
+      {
+        "name": "Rob Karsnak",
+        "avg": 179,
+        "game1": 167,
+        "game2": 111,
+        "game3": 190,
+        "total": 468
+      },
+      {
+        "name": "Ed Deabner",
+        "avg": 175,
+        "game1": 192,
+        "game2": 176,
+        "game3": 157,
+        "total": 525
+      },
+      {
+        "name": "Mike Ayala",
+        "avg": 177,
+        "game1": 223,
+        "game2": 201,
+        "game3": 178,
+        "total": 602
+      }
+    ]
+  },
+  {
+    "team_number": 31,
+    "team_name": "Loose Moose",
+    "roster": [
+      {
+        "name": "Barry Sykes",
+        "avg": 184,
+        "game1": 214,
+        "game2": 215,
+        "game3": 194,
+        "total": 623
+      },
+      {
+        "name": "Jose Reyes",
+        "avg": 193,
+        "game1": 227,
+        "game2": 155,
+        "game3": 211,
+        "total": 593
+      },
+      {
+        "name": "Dan Boyd",
+        "avg": 181,
+        "game1": 158,
+        "game2": 183,
+        "game3": 189,
+        "total": 530
+      },
+      {
+        "name": "Kristopher Crawford",
+        "avg": 191,
+        "game1": 212,
+        "game2": 173,
+        "game3": 190,
+        "total": 575
+      },
+      {
+        "name": "Joe Mastraieni",
+        "avg": 157,
+        "game1": 176,
+        "game2": 181,
+        "game3": 201,
+        "total": 558
+      }
+    ]
+  },
+  {
+    "team_number": 32,
+    "team_name": "Pin Heads",
+    "roster": [
+      {
+        "name": "Zach Maynard",
+        "avg": 180,
+        "game1": 172,
+        "game2": 185,
+        "game3": 183,
+        "total": 540
+      },
+      {
+        "name": "Dawn Bingham",
+        "avg": 163,
+        "game1": 163,
+        "game2": 124,
+        "game3": 157,
+        "total": 444
+      },
+      {
+        "name": "Tyler Mroz",
+        "avg": 193,
+        "game1": 172,
+        "game2": 216,
+        "game3": 181,
+        "total": 569
+      },
+      {
+        "name": "Lauren Bingham",
+        "avg": 188,
+        "game1": 198,
+        "game2": 173,
+        "game3": 157,
+        "total": 528
+      },
+      {
+        "name": "Jeanne Aber",
+        "avg": 187,
+        "game1": 172,
+        "game2": 137,
+        "game3": 180,
+        "total": 489
+      }
+    ]
+  }
+]
