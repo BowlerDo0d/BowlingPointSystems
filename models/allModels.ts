@@ -1,4 +1,4 @@
-export interface Player {
+export interface IPlayer {
   name: string;
   avg: number;
   game1: number;
@@ -7,8 +7,8 @@ export interface Player {
   total: number;
 }
 
-export interface Team {
+export interface ITeam {
   team_number: number;
   team_name: string;
-  roster: Player[]
+  roster: IPlayer[]
 }

@@ -1,4 +1,4 @@
-import { Team } from '../models/allModels';
+import { ITeam } from '../models/allModels';
 
 const { readFileSync, writeFile } = require('fs');
 
@@ -12,7 +12,7 @@ try {
   const recap: string[] = readFileSync(`recaps/week${weekNumber}.csv`, 'utf-8').replace(/\r/g, '').split('\n'),
     allTeams = [];
 
-  let nextTeam: Team = {
+  let nextTeam: ITeam = {
     team_number: 0,
     team_name: '',
     roster: []
