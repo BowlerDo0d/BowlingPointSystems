@@ -1,0 +1,2165 @@
+[
+  {
+    "week": 0,
+    "pairings": []
+  },
+  {
+    "week": 1,
+    "pairings": [
+      {
+        "away": 1,
+        "home": 2
+      },
+      {
+        "away": 3,
+        "home": 4
+      },
+      {
+        "away": 5,
+        "home": 6
+      },
+      {
+        "away": 7,
+        "home": 8
+      },
+      {
+        "away": 9,
+        "home": 10
+      },
+      {
+        "away": 11,
+        "home": 12
+      },
+      {
+        "away": 13,
+        "home": 14
+      },
+      {
+        "away": 15,
+        "home": 16
+      },
+      {
+        "away": 17,
+        "home": 18
+      },
+      {
+        "away": 19,
+        "home": 20
+      },
+      {
+        "away": 21,
+        "home": 22
+      },
+      {
+        "away": 23,
+        "home": 24
+      },
+      {
+        "away": 25,
+        "home": 26
+      },
+      {
+        "away": 27,
+        "home": 28
+      },
+      {
+        "away": 29,
+        "home": 30
+      },
+      {
+        "away": 31,
+        "home": 32
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "pairings": [
+      {
+        "away": 23,
+        "home": 17
+      },
+      {
+        "away": 20,
+        "home": 22
+      },
+      {
+        "away": 21,
+        "home": 29
+      },
+      {
+        "away": 24,
+        "home": 31
+      },
+      {
+        "away": 26,
+        "home": 27
+      },
+      {
+        "away": 18,
+        "home": 28
+      },
+      {
+        "away": 25,
+        "home": 30
+      },
+      {
+        "away": 32,
+        "home": 19
+      },
+      {
+        "away": 2,
+        "home": 12
+      },
+      {
+        "away": 15,
+        "home": 3
+      },
+      {
+        "away": 6,
+        "home": 4
+      },
+      {
+        "away": 8,
+        "home": 1
+      },
+      {
+        "away": 9,
+        "home": 13
+      },
+      {
+        "away": 10,
+        "home": 11
+      },
+      {
+        "away": 5,
+        "home": 14
+      },
+      {
+        "away": 7,
+        "home": 16
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "pairings": [
+      {
+        "away": 18,
+        "home": 5
+      },
+      {
+        "away": 19,
+        "home": 12
+      },
+      {
+        "away": 22,
+        "home": 1
+      },
+      {
+        "away": 23,
+        "home": 13
+      },
+      {
+        "away": 25,
+        "home": 15
+      },
+      {
+        "away": 4,
+        "home": 27
+      },
+      {
+        "away": 29,
+        "home": 7
+      },
+      {
+        "away": 31,
+        "home": 10
+      },
+      {
+        "away": 21,
+        "home": 11
+      },
+      {
+        "away": 16,
+        "home": 28
+      },
+      {
+        "away": 3,
+        "home": 17
+      },
+      {
+        "away": 2,
+        "home": 30
+      },
+      {
+        "away": 32,
+        "home": 14
+      },
+      {
+        "away": 20,
+        "home": 9
+      },
+      {
+        "away": 24,
+        "home": 6
+      },
+      {
+        "away": 26,
+        "home": 8
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "pairings": [
+      {
+        "away": 10,
+        "home": 25
+      },
+      {
+        "away": 7,
+        "home": 23
+      },
+      {
+        "away": 31,
+        "home": 15
+      },
+      {
+        "away": 12,
+        "home": 27
+      },
+      {
+        "away": 5,
+        "home": 22
+      },
+      {
+        "away": 13,
+        "home": 29
+      },
+      {
+        "away": 19,
+        "home": 4
+      },
+      {
+        "away": 18,
+        "home": 1
+      },
+      {
+        "away": 14,
+        "home": 26
+      },
+      {
+        "away": 2,
+        "home": 24
+      },
+      {
+        "away": 8,
+        "home": 32
+      },
+      {
+        "away": 9,
+        "home": 28
+      },
+      {
+        "away": 21,
+        "home": 3
+      },
+      {
+        "away": 30,
+        "home": 6
+      },
+      {
+        "away": 20,
+        "home": 16
+      },
+      {
+        "away": 17,
+        "home": 11
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "pairings": [
+      {
+        "away": 24,
+        "home": 3
+      },
+      {
+        "away": 21,
+        "home": 9
+      },
+      {
+        "away": 11,
+        "home": 30
+      },
+      {
+        "away": 32,
+        "home": 6
+      },
+      {
+        "away": 8,
+        "home": 28
+      },
+      {
+        "away": 16,
+        "home": 17
+      },
+      {
+        "away": 2,
+        "home": 26
+      },
+      {
+        "away": 14,
+        "home": 20
+      },
+      {
+        "away": 19,
+        "home": 1
+      },
+      {
+        "away": 4,
+        "home": 25
+      },
+      {
+        "away": 5,
+        "home": 27
+      },
+      {
+        "away": 22,
+        "home": 7
+      },
+      {
+        "away": 23,
+        "home": 10
+      },
+      {
+        "away": 12,
+        "home": 31
+      },
+      {
+        "away": 18,
+        "home": 13
+      },
+      {
+        "away": 15,
+        "home": 29
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "pairings": [
+      {
+        "away": 16,
+        "home": 32
+      },
+      {
+        "away": 14,
+        "home": 30
+      },
+      {
+        "away": 26,
+        "home": 9
+      },
+      {
+        "away": 20,
+        "home": 3
+      },
+      {
+        "away": 2,
+        "home": 17
+      },
+      {
+        "away": 24,
+        "home": 8
+      },
+      {
+        "away": 28,
+        "home": 11
+      },
+      {
+        "away": 6,
+        "home": 21
+      },
+      {
+        "away": 7,
+        "home": 31
+      },
+      {
+        "away": 29,
+        "home": 5
+      },
+      {
+        "away": 25,
+        "home": 13
+      },
+      {
+        "away": 15,
+        "home": 19
+      },
+      {
+        "away": 12,
+        "home": 18
+      },
+      {
+        "away": 1,
+        "home": 23
+      },
+      {
+        "away": 10,
+        "home": 27
+      },
+      {
+        "away": 22,
+        "home": 4
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "pairings": [
+      {
+        "away": 7,
+        "home": 11
+      },
+      {
+        "away": 16,
+        "home": 5
+      },
+      {
+        "away": 13,
+        "home": 3
+      },
+      {
+        "away": 15,
+        "home": 2
+      },
+      {
+        "away": 14,
+        "home": 12
+      },
+      {
+        "away": 9,
+        "home": 1
+      },
+      {
+        "away": 10,
+        "home": 6
+      },
+      {
+        "away": 4,
+        "home": 8
+      },
+      {
+        "away": 27,
+        "home": 24
+      },
+      {
+        "away": 21,
+        "home": 31
+      },
+      {
+        "away": 30,
+        "home": 19
+      },
+      {
+        "away": 32,
+        "home": 18
+      },
+      {
+        "away": 28,
+        "home": 29
+      },
+      {
+        "away": 17,
+        "home": 25
+      },
+      {
+        "away": 22,
+        "home": 26
+      },
+      {
+        "away": 20,
+        "home": 23
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "pairings": []
+  },
+  {
+    "week": 9,
+    "pairings": [
+      {
+        "away": 19,
+        "home": 26
+      },
+      {
+        "away": 24,
+        "home": 25
+      },
+      {
+        "away": 27,
+        "home": 32
+      },
+      {
+        "away": 22,
+        "home": 28
+      },
+      {
+        "away": 23,
+        "home": 21
+      },
+      {
+        "away": 30,
+        "home": 31
+      },
+      {
+        "away": 20,
+        "home": 18
+      },
+      {
+        "away": 17,
+        "home": 29
+      },
+      {
+        "away": 13,
+        "home": 16
+      },
+      {
+        "away": 1,
+        "home": 14
+      },
+      {
+        "away": 9,
+        "home": 7
+      },
+      {
+        "away": 10,
+        "home": 3
+      },
+      {
+        "away": 2,
+        "home": 4
+      },
+      {
+        "away": 8,
+        "home": 5
+      },
+      {
+        "away": 15,
+        "home": 11
+      },
+      {
+        "away": 6,
+        "home": 12
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "pairings": [
+      {
+        "away": 30,
+        "home": 22
+      },
+      {
+        "away": 19,
+        "home": 27
+      },
+      {
+        "away": 24,
+        "home": 18
+      },
+      {
+        "away": 26,
+        "home": 29
+      },
+      {
+        "away": 20,
+        "home": 31
+      },
+      {
+        "away": 19,
+        "home": 21
+      },
+      {
+        "away": 32,
+        "home": 23
+      },
+      {
+        "away": 28,
+        "home": 25
+      },
+      {
+        "away": 3,
+        "home": 5
+      },
+      {
+        "away": 12,
+        "home": 9
+      },
+      {
+        "away": 1,
+        "home": 11
+      },
+      {
+        "away": 6,
+        "home": 13
+      },
+      {
+        "away": 8,
+        "home": 15
+      },
+      {
+        "away": 16,
+        "home": 4
+      },
+      {
+        "away": 7,
+        "home": 2
+      },
+      {
+        "away": 14,
+        "home": 10
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "pairings": [
+      {
+        "away": 15,
+        "home": 9
+      },
+      {
+        "away": 8,
+        "home": 13
+      },
+      {
+        "away": 10,
+        "home": 16
+      },
+      {
+        "away": 11,
+        "home": 4
+      },
+      {
+        "away": 6,
+        "home": 1
+      },
+      {
+        "away": 7,
+        "home": 14
+      },
+      {
+        "away": 3,
+        "home": 12
+      },
+      {
+        "away": 5,
+        "home": 2
+      },
+      {
+        "away": 25,
+        "home": 32
+      },
+      {
+        "away": 30,
+        "home": 23
+      },
+      {
+        "away": 26,
+        "home": 31
+      },
+      {
+        "away": 20,
+        "home": 27
+      },
+      {
+        "away": 22,
+        "home": 17
+      },
+      {
+        "away": 24,
+        "home": 29
+      },
+      {
+        "away": 19,
+        "home": 28
+      },
+      {
+        "away": 21,
+        "home": 18
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "pairings": [
+      {
+        "away": 14,
+        "home": 4
+      },
+      {
+        "away": 10,
+        "home": 2
+      },
+      {
+        "away": 12,
+        "home": 8
+      },
+      {
+        "away": 9,
+        "home": 5
+      },
+      {
+        "away": 3,
+        "home": 7
+      },
+      {
+        "away": 6,
+        "home": 15
+      },
+      {
+        "away": 16,
+        "home": 1
+      },
+      {
+        "away": 11,
+        "home": 13
+      },
+      {
+        "away": 20,
+        "home": 29
+      },
+      {
+        "away": 18,
+        "home": 26
+      },
+      {
+        "away": 23,
+        "home": 28
+      },
+      {
+        "away": 21,
+        "home": 25
+      },
+      {
+        "away": 19,
+        "home": 24
+      },
+      {
+        "away": 22,
+        "home": 32
+      },
+      {
+        "away": 31,
+        "home": 17
+      },
+      {
+        "away": 27,
+        "home": 30
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "pairings": [
+      {
+        "away": 28,
+        "home": 31
+      },
+      {
+        "away": 29,
+        "home": 32
+      },
+      {
+        "away": 25,
+        "home": 20
+      },
+      {
+        "away": 17,
+        "home": 19
+      },
+      {
+        "away": 30,
+        "home": 18
+      },
+      {
+        "away": 23,
+        "home": 26
+      },
+      {
+        "away": 21,
+        "home": 27
+      },
+      {
+        "away": 22,
+        "home": 24
+      },
+      {
+        "away": 8,
+        "home": 10
+      },
+      {
+        "away": 6,
+        "home": 7
+      },
+      {
+        "away": 14,
+        "home": 15
+      },
+      {
+        "away": 12,
+        "home": 16
+      },
+      {
+        "away": 5,
+        "home": 11
+      },
+      {
+        "away": 2,
+        "home": 13
+      },
+      {
+        "away": 9,
+        "home": 4
+      },
+      {
+        "away": 3,
+        "home": 1
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "pairings": [
+      {
+        "away": 2,
+        "home": 21
+      },
+      {
+        "away": 28,
+        "home": 3
+      },
+      {
+        "away": 6,
+        "home": 17
+      },
+      {
+        "away": 8,
+        "home": 30
+      },
+      {
+        "away": 32,
+        "home": 9
+      },
+      {
+        "away": 20,
+        "home": 11
+      },
+      {
+        "away": 14,
+        "home": 24
+      },
+      {
+        "away": 16,
+        "home": 26
+      },
+      {
+        "away": 12,
+        "home": 22
+      },
+      {
+        "away": 27,
+        "home": 15
+      },
+      {
+        "away": 4,
+        "home": 18
+      },
+      {
+        "away": 1,
+        "home": 29
+      },
+      {
+        "away": 13,
+        "home": 31
+      },
+      {
+        "away": 19,
+        "home": 10
+      },
+      {
+        "away": 23,
+        "home": 5
+      },
+      {
+        "away": 25,
+        "home": 7
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "pairings": [
+      {
+        "away": 13,
+        "home": 27
+      },
+      {
+        "away": 31,
+        "home": 1
+      },
+      {
+        "away": 19,
+        "home": 7
+      },
+      {
+        "away": 18,
+        "home": 10
+      },
+      {
+        "away": 4,
+        "home": 29
+      },
+      {
+        "away": 25,
+        "home": 5
+      },
+      {
+        "away": 15,
+        "home": 22
+      },
+      {
+        "away": 12,
+        "home": 23
+      },
+      {
+        "away": 30,
+        "home": 9
+      },
+      {
+        "away": 17,
+        "home": 8
+      },
+      {
+        "away": 24,
+        "home": 16
+      },
+      {
+        "away": 26,
+        "home": 11
+      },
+      {
+        "away": 20,
+        "home": 6
+      },
+      {
+        "away": 21,
+        "home": 14
+      },
+      {
+        "away": 3,
+        "home": 32
+      },
+      {
+        "away": 28,
+        "home": 2
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "pairings": [
+      {
+        "away": 8,
+        "home": 20
+      },
+      {
+        "away": 6,
+        "home": 26
+      },
+      {
+        "away": 28,
+        "home": 14
+      },
+      {
+        "away": 16,
+        "home": 21
+      },
+      {
+        "away": 24,
+        "home": 11
+      },
+      {
+        "away": 32,
+        "home": 2
+      },
+      {
+        "away": 9,
+        "home": 17
+      },
+      {
+        "away": 3,
+        "home": 30
+      },
+      {
+        "away": 15,
+        "home": 23
+      },
+      {
+        "away": 22,
+        "home": 13
+      },
+      {
+        "away": 29,
+        "home": 10
+      },
+      {
+        "away": 31,
+        "home": 4
+      },
+      {
+        "away": 27,
+        "home": 1
+      },
+      {
+        "away": 18,
+        "home": 7
+      },
+      {
+        "away": 12,
+        "home": 25
+      },
+      {
+        "away": 19,
+        "home": 5
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "pairings": []
+  },
+  {
+    "week": 18,
+    "pairings": [
+      {
+        "away": 29,
+        "home": 12
+      },
+      {
+        "away": 15,
+        "home": 18
+      },
+      {
+        "away": 23,
+        "home": 4
+      },
+      {
+        "away": 25,
+        "home": 1
+      },
+      {
+        "away": 13,
+        "home": 19
+      },
+      {
+        "away": 10,
+        "home": 22
+      },
+      {
+        "away": 5,
+        "home": 31
+      },
+      {
+        "away": 7,
+        "home": 27
+      },
+      {
+        "away": 6,
+        "home": 28
+      },
+      {
+        "away": 32,
+        "home": 11
+      },
+      {
+        "away": 20,
+        "home": 2
+      },
+      {
+        "away": 14,
+        "home": 17
+      },
+      {
+        "away": 30,
+        "home": 16
+      },
+      {
+        "away": 3,
+        "home": 26
+      },
+      {
+        "away": 21,
+        "home": 8
+      },
+      {
+        "away": 24,
+        "home": 9
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "pairings": [
+      {
+        "away": 26,
+        "home": 15
+      },
+      {
+        "away": 4,
+        "home": 20
+      },
+      {
+        "away": 1,
+        "home": 24
+      },
+      {
+        "away": 13,
+        "home": 32
+      },
+      {
+        "away": 10,
+        "home": 30
+      },
+      {
+        "away": 17,
+        "home": 7
+      },
+      {
+        "away": 12,
+        "home": 28
+      },
+      {
+        "away": 21,
+        "home": 5
+      },
+      {
+        "away": 18,
+        "home": 3
+      },
+      {
+        "away": 25,
+        "home": 6
+      },
+      {
+        "away": 19,
+        "home": 8
+      },
+      {
+        "away": 27,
+        "home": 9
+      },
+      {
+        "away": 11,
+        "home": 23
+      },
+      {
+        "away": 31,
+        "home": 16
+      },
+      {
+        "away": 2,
+        "home": 22
+      },
+      {
+        "away": 29,
+        "home": 14
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "pairings": [
+      {
+        "away": 21,
+        "home": 24
+      },
+      {
+        "away": 32,
+        "home": 17
+      },
+      {
+        "away": 30,
+        "home": 26
+      },
+      {
+        "away": 28,
+        "home": 20
+      },
+      {
+        "away": 1,
+        "home": 5
+      },
+      {
+        "away": 12,
+        "home": 4
+      },
+      {
+        "away": 7,
+        "home": 13
+      },
+      {
+        "away": 10,
+        "home": 15
+      },
+      {
+        "away": 29,
+        "home": 19
+      },
+      {
+        "away": 31,
+        "home": 27
+      },
+      {
+        "away": 18,
+        "home": 23
+      },
+      {
+        "away": 25,
+        "home": 22
+      },
+      {
+        "away": 14,
+        "home": 8
+      },
+      {
+        "away": 6,
+        "home": 2
+      },
+      {
+        "away": 16,
+        "home": 9
+      },
+      {
+        "away": 11,
+        "home": 3
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "pairings": [
+      {
+        "away": 32,
+        "home": 7
+      },
+      {
+        "away": 1,
+        "home": 21
+      },
+      {
+        "away": 17,
+        "home": 13
+      },
+      {
+        "away": 30,
+        "home": 15
+      },
+      {
+        "away": 28,
+        "home": 4
+      },
+      {
+        "away": 5,
+        "home": 24
+      },
+      {
+        "away": 26,
+        "home": 10
+      },
+      {
+        "away": 20,
+        "home": 12
+      },
+      {
+        "away": 16,
+        "home": 27
+      },
+      {
+        "away": 8,
+        "home": 29
+      },
+      {
+        "away": 31,
+        "home": 9
+      },
+      {
+        "away": 3,
+        "home": 23
+      },
+      {
+        "away": 6,
+        "home": 22
+      },
+      {
+        "away": 14,
+        "home": 19
+      },
+      {
+        "away": 11,
+        "home": 18
+      },
+      {
+        "away": 2,
+        "home": 25
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "pairings": [
+      {
+        "away": 20,
+        "home": 10
+      },
+      {
+        "away": 5,
+        "home": 7
+      },
+      {
+        "away": 15,
+        "home": 28
+      },
+      {
+        "away": 21,
+        "home": 17
+      },
+      {
+        "away": 12,
+        "home": 26
+      },
+      {
+        "away": 1,
+        "home": 13
+      },
+      {
+        "away": 24,
+        "home": 32
+      },
+      {
+        "away": 30,
+        "home": 4
+      },
+      {
+        "away": 11,
+        "home": 25
+      },
+      {
+        "away": 14,
+        "home": 16
+      },
+      {
+        "away": 22,
+        "home": 3
+      },
+      {
+        "away": 29,
+        "home": 31
+      },
+      {
+        "away": 18,
+        "home": 2
+      },
+      {
+        "away": 9,
+        "home": 8
+      },
+      {
+        "away": 27,
+        "home": 19
+      },
+      {
+        "away": 23,
+        "home": 6
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "pairings": [
+      {
+        "away": 6,
+        "home": 19
+      },
+      {
+        "away": 27,
+        "home": 11
+      },
+      {
+        "away": 29,
+        "home": 2
+      },
+      {
+        "away": 14,
+        "home": 18
+      },
+      {
+        "away": 16,
+        "home": 25
+      },
+      {
+        "away": 31,
+        "home": 3
+      },
+      {
+        "away": 23,
+        "home": 8
+      },
+      {
+        "away": 9,
+        "home": 22
+      },
+      {
+        "away": 24,
+        "home": 4
+      },
+      {
+        "away": 10,
+        "home": 32
+      },
+      {
+        "away": 13,
+        "home": 21
+      },
+      {
+        "away": 5,
+        "home": 26
+      },
+      {
+        "away": 7,
+        "home": 20
+      },
+      {
+        "away": 15,
+        "home": 17
+      },
+      {
+        "away": 30,
+        "home": 1
+      },
+      {
+        "away": 13,
+        "home": 28
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "pairings": [
+      {
+        "away": 22,
+        "home": 16
+      },
+      {
+        "away": 18,
+        "home": 8
+      },
+      {
+        "away": 9,
+        "home": 25
+      },
+      {
+        "away": 31,
+        "home": 11
+      },
+      {
+        "away": 19,
+        "home": 2
+      },
+      {
+        "away": 14,
+        "home": 23
+      },
+      {
+        "away": 27,
+        "home": 3
+      },
+      {
+        "away": 29,
+        "home": 6
+      },
+      {
+        "away": 28,
+        "home": 7
+      },
+      {
+        "away": 26,
+        "home": 1
+      },
+      {
+        "away": 13,
+        "home": 20
+      },
+      {
+        "away": 17,
+        "home": 10
+      },
+      {
+        "away": 24,
+        "home": 12
+      },
+      {
+        "away": 5,
+        "home": 30
+      },
+      {
+        "away": 32,
+        "home": 15
+      },
+      {
+        "away": 4,
+        "home": 21
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "pairings": []
+  },
+  {
+    "week": 26,
+    "pairings": [
+      {
+        "away": 27,
+        "home": 23
+      },
+      {
+        "away": 9,
+        "home": 6
+      },
+      {
+        "away": 18,
+        "home": 31
+      },
+      {
+        "away": 19,
+        "home": 25
+      },
+      {
+        "away": 11,
+        "home": 14
+      },
+      {
+        "away": 2,
+        "home": 16
+      },
+      {
+        "away": 22,
+        "home": 29
+      },
+      {
+        "away": 8,
+        "home": 3
+      },
+      {
+        "away": 32,
+        "home": 30
+      },
+      {
+        "away": 13,
+        "home": 4
+      },
+      {
+        "away": 17,
+        "home": 26
+      },
+      {
+        "away": 24,
+        "home": 20
+      },
+      {
+        "away": 10,
+        "home": 5
+      },
+      {
+        "away": 7,
+        "home": 12
+      },
+      {
+        "away": 28,
+        "home": 21
+      },
+      {
+        "away": 1,
+        "home": 15
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "pairings": [
+      {
+        "away": 9,
+        "home": 18
+      },
+      {
+        "away": 2,
+        "home": 14
+      },
+      {
+        "away": 16,
+        "home": 23
+      },
+      {
+        "away": 27,
+        "home": 22
+      },
+      {
+        "away": 29,
+        "home": 3
+      },
+      {
+        "away": 8,
+        "home": 6
+      },
+      {
+        "away": 31,
+        "home": 25
+      },
+      {
+        "away": 19,
+        "home": 11
+      },
+      {
+        "away": 26,
+        "home": 13
+      },
+      {
+        "away": 5,
+        "home": 12
+      },
+      {
+        "away": 7,
+        "home": 30
+      },
+      {
+        "away": 28,
+        "home": 32
+      },
+      {
+        "away": 15,
+        "home": 21
+      },
+      {
+        "away": 4,
+        "home": 1
+      },
+      {
+        "away": 17,
+        "home": 20
+      },
+      {
+        "away": 10,
+        "home": 24
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "pairings": [
+      {
+        "away": 3,
+        "home": 14
+      },
+      {
+        "away": 25,
+        "home": 29
+      },
+      {
+        "away": 8,
+        "home": 11
+      },
+      {
+        "away": 2,
+        "home": 9
+      },
+      {
+        "away": 31,
+        "home": 23
+      },
+      {
+        "away": 22,
+        "home": 19
+      },
+      {
+        "away": 6,
+        "home": 16
+      },
+      {
+        "away": 27,
+        "home": 18
+      },
+      {
+        "away": 5,
+        "home": 15
+      },
+      {
+        "away": 20,
+        "home": 21
+      },
+      {
+        "away": 10,
+        "home": 1
+      },
+      {
+        "away": 13,
+        "home": 12
+      },
+      {
+        "away": 17,
+        "home": 30
+      },
+      {
+        "away": 28,
+        "home": 24
+      },
+      {
+        "away": 4,
+        "home": 7
+      },
+      {
+        "away": 32,
+        "home": 26
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "pairings": [
+      {
+        "away": 5,
+        "home": 13
+      },
+      {
+        "away": 12,
+        "home": 15
+      },
+      {
+        "away": 7,
+        "home": 21
+      },
+      {
+        "away": 4,
+        "home": 26
+      },
+      {
+        "away": 17,
+        "home": 24
+      },
+      {
+        "away": 28,
+        "home": 10
+      },
+      {
+        "away": 30,
+        "home": 20
+      },
+      {
+        "away": 1,
+        "home": 32
+      },
+      {
+        "away": 9,
+        "home": 14
+      },
+      {
+        "away": 3,
+        "home": 2
+      },
+      {
+        "away": 16,
+        "home": 29
+      },
+      {
+        "away": 18,
+        "home": 6
+      },
+      {
+        "away": 31,
+        "home": 19
+      },
+      {
+        "away": 11,
+        "home": 22
+      },
+      {
+        "away": 25,
+        "home": 23
+      },
+      {
+        "away": 8,
+        "home": 27
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "pairings": [
+      {
+        "away": 17,
+        "home": 1
+      },
+      {
+        "away": 30,
+        "home": 28
+      },
+      {
+        "away": 32,
+        "home": 5
+      },
+      {
+        "away": 10,
+        "home": 12
+      },
+      {
+        "away": 21,
+        "home": 13
+      },
+      {
+        "away": 26,
+        "home": 20
+      },
+      {
+        "away": 4,
+        "home": 15
+      },
+      {
+        "away": 24,
+        "home": 7
+      },
+      {
+        "away": 31,
+        "home": 8
+      },
+      {
+        "away": 23,
+        "home": 22
+      },
+      {
+        "away": 27,
+        "home": 14
+      },
+      {
+        "away": 11,
+        "home": 2
+      },
+      {
+        "away": 29,
+        "home": 9
+      },
+      {
+        "away": 25,
+        "home": 18
+      },
+      {
+        "away": 6,
+        "home": 3
+      },
+      {
+        "away": 16,
+        "home": 19
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "pairings": [
+      {
+        "away": 12,
+        "home": 30
+      },
+      {
+        "away": 13,
+        "home": 24
+      },
+      {
+        "away": 4,
+        "home": 10
+      },
+      {
+        "away": 1,
+        "home": 7
+      },
+      {
+        "away": 15,
+        "home": 20
+      },
+      {
+        "away": 21,
+        "home": 32
+      },
+      {
+        "away": 17,
+        "home": 5
+      },
+      {
+        "away": 26,
+        "home": 28
+      },
+      {
+        "away": 23,
+        "home": 2
+      },
+      {
+        "away": 9,
+        "home": 19
+      },
+      {
+        "away": 11,
+        "home": 6
+      },
+      {
+        "away": 16,
+        "home": 8
+      },
+      {
+        "away": 3,
+        "home": 25
+      },
+      {
+        "away": 29,
+        "home": 27
+      },
+      {
+        "away": 14,
+        "home": 31
+      },
+      {
+        "away": 18,
+        "home": 22
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "pairings": [
+      {
+        "away": 31,
+        "home": 6
+      },
+      {
+        "away": 11,
+        "home": 16
+      },
+      {
+        "away": 2,
+        "home": 27
+      },
+      {
+        "away": 29,
+        "home": 23
+      },
+      {
+        "away": 22,
+        "home": 8
+      },
+      {
+        "away": 3,
+        "home": 9
+      },
+      {
+        "away": 18,
+        "home": 19
+      },
+      {
+        "away": 25,
+        "home": 14
+      },
+      {
+        "away": 4,
+        "home": 17
+      },
+      {
+        "away": 7,
+        "home": 10
+      },
+      {
+        "away": 32,
+        "home": 12
+      },
+      {
+        "away": 30,
+        "home": 21
+      },
+      {
+        "away": 1,
+        "home": 28
+      },
+      {
+        "away": 13,
+        "home": 15
+      },
+      {
+        "away": 26,
+        "home": 24
+      },
+      {
+        "away": 5,
+        "home": 20
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "pairings": [
+      {
+        "away": 11,
+        "home": 29
+      },
+      {
+        "away": 22,
+        "home": 31
+      },
+      {
+        "away": 3,
+        "home": 19
+      },
+      {
+        "away": 6,
+        "home": 14
+      },
+      {
+        "away": 18,
+        "home": 16
+      },
+      {
+        "away": 27,
+        "home": 25
+      },
+      {
+        "away": 8,
+        "home": 2
+      },
+      {
+        "away": 23,
+        "home": 9
+      },
+      {
+        "away": 10,
+        "home": 21
+      },
+      {
+        "away": 28,
+        "home": 17
+      },
+      {
+        "away": 15,
+        "home": 24
+      },
+      {
+        "away": 4,
+        "home": 5
+      },
+      {
+        "away": 26,
+        "home": 7
+      },
+      {
+        "away": 32,
+        "home": 20
+      },
+      {
+        "away": 1,
+        "home": 12
+      },
+      {
+        "away": 30,
+        "home": 13
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "pairings": [
+      {
+        "away": 25,
+        "home": 8
+      },
+      {
+        "away": 23,
+        "home": 19
+      },
+      {
+        "away": 14,
+        "home": 22
+      },
+      {
+        "away": 3,
+        "home": 16
+      },
+      {
+        "away": 27,
+        "home": 6
+      },
+      {
+        "away": 29,
+        "home": 18
+      },
+      {
+        "away": 11,
+        "home": 9
+      },
+      {
+        "away": 2,
+        "home": 31
+      },
+      {
+        "away": 1,
+        "home": 20
+      },
+      {
+        "away": 24,
+        "home": 30
+      },
+      {
+        "away": 28,
+        "home": 5
+      },
+      {
+        "away": 7,
+        "home": 15
+      },
+      {
+        "away": 4,
+        "home": 32
+      },
+      {
+        "away": 26,
+        "home": 21
+      },
+      {
+        "away": 13,
+        "home": 10
+      },
+      {
+        "away": 12,
+        "home": 17
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "pairings": []
+  },
+  {
+    "week": 36,
+    "pairings": []
+  }
+]
