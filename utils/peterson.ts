@@ -1,4 +1,5 @@
-import { IPlayer, IPoints, ITeam } from '../models/allModels';
+import { IPlayer, IPoints, IStanding, IStandings, ITeam } from '../models/allModels';
+import { calculateHomeHdcp, calculateTeamPoints } from './shared';
 
 const POINTS_PER_GAME = {
     INDIVIDUAL: 1,
@@ -9,98 +10,11 @@ const POINTS_PER_GAME = {
     TEAM: 4
   };
 
-const calculateHomeHdcp = (awayAvg: number, homeAvg: number): number => {
-  const HDCP_PERCENTAGE = 0.9; // 90%
-
-  const hdcp = Math.floor(Math.abs(awayAvg - homeAvg) * HDCP_PERCENTAGE);
-
-  return homeAvg > awayAvg ? hdcp * -1 : hdcp;
-};
-
-const calculateTeamPoints = (awayTeam: ITeam, homeTeam: ITeam): {awayTeamPoints: number, homeTeamPoints: number} => {
-  let awayTeamAvg = 0,
-    awayTeamGame1 = 0,
-    awayTeamGame2 = 0,
-    awayTeamGame3 = 0,
-    awayTeamPoints = 0,
-    homeTeamAvg = 0,
-    homeTeamGame1 = 0,
-    homeTeamGame2 = 0,
-    homeTeamGame3 = 0,
-    homeTeamPoints = 0;
-
-  let player = 0;
-  while (player < awayTeam.roster.length) {
-    const awayPlayer = awayTeam.roster[player],
-      homePlayer = homeTeam.roster[player];
-
-    awayTeamAvg += awayPlayer.avg;
-    homeTeamAvg += homePlayer.avg;
-
-    awayTeamGame1 += awayPlayer.game1;
-    homeTeamGame1 += homePlayer.game1;
-
-    awayTeamGame2 += awayPlayer.game2;
-    homeTeamGame2 += homePlayer.game2;
-
-    awayTeamGame3 += awayPlayer.game3;
-    homeTeamGame3 += homePlayer.game3;
-    
-    player += 1;
-  }
-  
-  const homeTeamHdcp = calculateHomeHdcp(awayTeamAvg, homeTeamAvg),
-    awayTeamTotal = awayTeamGame1 + awayTeamGame2 + awayTeamGame3,
-    homeTeamTotal = homeTeamGame1 + homeTeamGame2 + homeTeamGame3 + (homeTeamHdcp * 3);
-
-  // Game 1
-  if ((homeTeamGame1 + homeTeamHdcp) > awayTeamGame1) {
-    homeTeamPoints += POINTS_PER_GAME.TEAM;
-  } else if ((homeTeamGame1 + homeTeamHdcp) < awayTeamGame1) {
-    awayTeamPoints += POINTS_PER_GAME.TEAM;
-  } else {
-    awayTeamPoints += POINTS_PER_GAME.TEAM/2;
-    homeTeamPoints += POINTS_PER_GAME.TEAM/2;
-  }
-  
-  // Game 2
-  if ((homeTeamGame2 + homeTeamHdcp) > awayTeamGame2) {
-    homeTeamPoints += POINTS_PER_GAME.TEAM;
-  } else if ((homeTeamGame2 + homeTeamHdcp) < awayTeamGame2) {
-    awayTeamPoints += POINTS_PER_GAME.TEAM;
-  } else {
-    awayTeamPoints += POINTS_PER_GAME.TEAM/2;
-    homeTeamPoints += POINTS_PER_GAME.TEAM/2;
-  }
-  
-  // Game 3
-  if ((homeTeamGame3 + homeTeamHdcp) > awayTeamGame3) {
-    homeTeamPoints += POINTS_PER_GAME.TEAM;
-  } else if ((homeTeamGame3 + homeTeamHdcp) < awayTeamGame3) {
-    awayTeamPoints += POINTS_PER_GAME.TEAM;
-  } else {
-    awayTeamPoints += POINTS_PER_GAME.TEAM/2;
-    homeTeamPoints += POINTS_PER_GAME.TEAM/2;
-  }
-  
-  // Total
-  if (homeTeamTotal > awayTeamTotal) {
-    homeTeamPoints += POINTS_FOR_TOTAL.TEAM;
-  } else if (homeTeamTotal < awayTeamTotal) {
-    awayTeamPoints += POINTS_FOR_TOTAL.TEAM;
-  } else {
-    awayTeamPoints += POINTS_FOR_TOTAL.TEAM/2;
-    homeTeamPoints += POINTS_FOR_TOTAL.TEAM/2;
-  }
-  
-  return { awayTeamPoints, homeTeamPoints };
-};
-
 const calculateIndividualPoints = (awayPlayer: IPlayer, homePlayer: IPlayer): {awayPlayerPoints: number, homePlayerPoints: number} => {
   let awayPlayerPoints = 0,
     homePlayerPoints = 0;
 
-  const homePlayerHdcp = calculateHomeHdcp(awayPlayer.avg, homePlayer.avg);
+  const homePlayerHdcp = calculateHomeHdcp(awayPlayer.avg, homePlayer.avg, 90);
 
   if ((homePlayer.game1 + homePlayerHdcp) > awayPlayer.game1) {
     homePlayerPoints += POINTS_PER_GAME.INDIVIDUAL;
@@ -132,7 +46,7 @@ const calculateIndividualPoints = (awayPlayer: IPlayer, homePlayer: IPlayer): {a
   if ((homePlayer.total + (homePlayerHdcp * 3)) > awayPlayer.total) {
     homePlayerPoints += POINTS_FOR_TOTAL.INDIVIDUAL;
   } else if ((homePlayer.total + (homePlayerHdcp * 3)) < awayPlayer.total) {
-    awayPlayerPoints += 2;
+    awayPlayerPoints += POINTS_FOR_TOTAL.INDIVIDUAL;
   } else {
     awayPlayerPoints += POINTS_FOR_TOTAL.INDIVIDUAL/2;
     homePlayerPoints += POINTS_FOR_TOTAL.INDIVIDUAL/2;
@@ -155,16 +69,43 @@ export const getPetersonStandings = (awayTeam: ITeam, homeTeam: ITeam): IPoints 
     player += 1;
   }
   
-  const { awayTeamPoints, homeTeamPoints } = calculateTeamPoints(awayTeam, homeTeam);
+  const { awayTeamPoints, homeTeamPoints } = calculateTeamPoints(awayTeam, homeTeam, POINTS_PER_GAME.TEAM, POINTS_FOR_TOTAL.TEAM);
 
   awayPoints += awayTeamPoints;
   homePoints += homeTeamPoints;
-
-  console.log(`${awayTeam.team_name} vs. ${homeTeam.team_name}`);
-  console.log(`${awayPoints} - ${homePoints}\n`);
 
   return {
     awayPoints,
     homePoints
   };
+};
+
+export const sortAndDisplay = (standings: IStandings): void => {
+  const standingsArray: [number, IStanding][] = Object.entries(standings) as any;
+
+  standingsArray.sort((a: [number, IStanding], b: [number, IStanding]): number => {
+    if (a[1].peterson_points > b[1].peterson_points) {
+      return -1;
+    } else if (a[1].peterson_points < b[1].peterson_points) {
+      return 1;
+    }
+
+    return 0;
+  });
+
+  const sortedStandings: {[key: number]: {}} = {};
+
+  let x = 0;
+  while (x < standingsArray.length) {
+    sortedStandings[x+1] = {
+      Team: `${(standingsArray[x][0]+'   ').slice(0, 2)} - ${standingsArray[x][1].team_name}`,
+      Points: standingsArray[x][1].peterson_points
+    };
+
+    x += 1;
+  }
+
+  console.log('Peterson Standings:');
+  console.log('-------------------');
+  console.table(sortedStandings);
 };

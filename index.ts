@@ -1,7 +1,7 @@
-import { ISchedule, IStanding, IStandings, ITeam } from './models/allModels';
-import { getMahonyStandings } from './utils/mahony';
-import { getPetersonStandings } from './utils/peterson';
-import { getTraditionalStandings } from './utils/traditional';
+import { ISchedule, IStandings, ITeam } from './models/allModels';
+import { getMahonyStandings, sortAndDisplay as sortAndDisplayMahony } from './utils/mahony';
+import { getPetersonStandings, sortAndDisplay as sortAndDisplayPeterson } from './utils/peterson';
+import { getTraditionalStandings, sortAndDisplay as sortAndDisplayTraditional } from './utils/traditional';
 
 const { readFileSync } = require('fs');
 
@@ -61,17 +61,17 @@ const calucluate = (): void => {
         updateStandings(awayTeamNumber, pAwayPoints, 'Peterson');
         updateStandings(homeTeamNumber, pHomePoints, 'Peterson');
         
-        // // 7 point system
-        // const { awayPoints: tAwayPoints, homePoints: tHomePoints } = getTraditionalStandings(awayTeam, homeTeam);
+        // 7 point system
+        const { awayPoints: tAwayPoints, homePoints: tHomePoints } = getTraditionalStandings(awayTeam, homeTeam);
         
-        // updateStandings(awayTeamNumber, tAwayPoints, 'Traditional');
-        // updateStandings(homeTeamNumber, tHomePoints, 'Traditional');
+        updateStandings(awayTeamNumber, tAwayPoints, 'Traditional');
+        updateStandings(homeTeamNumber, tHomePoints, 'Traditional');
         
-        // // 15 point system
-        // const { awayPoints: mAwayPoints, homePoints: mHomePoints } = getMahonyStandings(awayTeam, homeTeam);
+        // 15 point system
+        const { awayPoints: mAwayPoints, homePoints: mHomePoints } = getMahonyStandings(awayTeam, homeTeam);
         
-        // updateStandings(awayTeamNumber, mAwayPoints, 'Mahony');
-        // updateStandings(homeTeamNumber, mHomePoints, 'Mahony');
+        updateStandings(awayTeamNumber, mAwayPoints, 'Mahony');
+        updateStandings(homeTeamNumber, mHomePoints, 'Mahony');
 
         pairing += 1;
       }
@@ -84,35 +84,7 @@ const calucluate = (): void => {
   }
 };
 
-const sortAndDisplayPeterson = (): void => {
-  const standingsArraySorted: [number, IStanding][] = Object.entries(standings) as any;
-
-  standingsArraySorted.sort((a: [number, IStanding], b: [number, IStanding]): number => {
-    if (a[1].peterson_points > b[1].peterson_points) {
-      return -1;
-    } else if (a[1].peterson_points < b[1].peterson_points) {
-      return 1;
-    }
-
-    return 0;
-  });
-
-  const sortedStandings: {[key: number]: {}} = {};
-
-  let x = 0;
-  while (x < standingsArraySorted.length) {
-    sortedStandings[x+1] = {
-      Team: `${(standingsArraySorted[x][0]+'   ').slice(0, 2)} - ${standingsArraySorted[x][1].team_name}`,
-      Points: standingsArraySorted[x][1].peterson_points
-    };
-
-    x += 1;
-  }
-
-  console.log('Peterson Standings:');
-  console.log('-------------------');
-  console.table(sortedStandings);
-};
-
 calucluate();
-sortAndDisplayPeterson();
+sortAndDisplayPeterson(standings);
+sortAndDisplayTraditional(standings);
+sortAndDisplayMahony(standings);
