@@ -12,3 +12,29 @@ export interface ITeam {
   team_name: string;
   roster: IPlayer[]
 }
+
+export interface IPoints {
+  awayPoints: number;
+  homePoints: number;
+}
+
+export interface IPairing {
+  away: number;
+  home: number;
+}
+
+export interface ISchedule {
+  week: number;
+  pairings: IPairing[]
+}
+
+export interface IStanding {
+  team_name: string;
+  mahony_points: number;
+  peterson_points: number;
+  traditional_points: number;
+}
+
+export interface IStandings {
+  [key: number]: IStanding
+}
