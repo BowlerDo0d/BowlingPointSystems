@@ -1,4 +1,4 @@
-import { IPlayer, IPoints, IStanding, IStandings, ITeam } from '../models/allModels';
+import { IPairing, IPlayer, IPoints, IStanding, IStandings, ITeam } from '../models/allModels';
 import { calculateHomeHdcp, calculateTeamPoints } from './shared';
 
 const POINTS_PER_GAME = {
@@ -69,18 +69,37 @@ export const getPetersonStandings = (awayTeam: ITeam, homeTeam: ITeam): IPoints 
     player += 1;
   }
   
-  const { awayTeamPoints, homeTeamPoints } = calculateTeamPoints(awayTeam, homeTeam, POINTS_PER_GAME.TEAM, POINTS_FOR_TOTAL.TEAM);
+  const { awayTeamPoints, awayTotalPins, homeTeamPoints, homeTotalPins } = calculateTeamPoints(awayTeam, homeTeam, POINTS_PER_GAME.TEAM, POINTS_FOR_TOTAL.TEAM);
 
   awayPoints += awayTeamPoints;
   homePoints += homeTeamPoints;
 
   return {
     awayPoints,
-    homePoints
+    awayTotalPins,
+    homePoints,
+    homeTotalPins
   };
 };
 
-export const sortAndDisplay = (standings: IStandings): void => {
+export const generatePostionRound = (standings: IStandings): IPairing[] => {
+  const sortedStandings = [...sortTeams(standings)],
+    pairings: IPairing[] = [];
+
+  let position = 0;
+  while (position < 32) {
+    pairings.push({
+      away: sortedStandings[position][1].team_number,
+      home: sortedStandings[position + 1][1].team_number
+    });
+
+    position += 2;
+  }
+
+  return pairings;
+};
+
+export const sortTeams = (standings: IStandings): [number, IStanding][] => {
   const standingsArray: [number, IStanding][] = Object.entries(standings) as any;
 
   standingsArray.sort((a: [number, IStanding], b: [number, IStanding]): number => {
@@ -89,17 +108,29 @@ export const sortAndDisplay = (standings: IStandings): void => {
     } else if (a[1].peterson_points < b[1].peterson_points) {
       return 1;
     }
+    
+    if (a[1].total_pins > b[1].total_pins) {
+      return -1;
+    } else if (a[1].total_pins < b[1].total_pins) {
+      return 1;
+    }
 
     return 0;
   });
 
+  return standingsArray;
+}
+
+export const sortAndDisplay = (standings: IStandings): void => {
+  const standingsArray = sortTeams(standings);
   const sortedStandings: {[key: number]: {}} = {};
 
   let x = 0;
   while (x < standingsArray.length) {
     sortedStandings[x+1] = {
       Team: `${(standingsArray[x][0]+'   ').slice(0, 2)} - ${standingsArray[x][1].team_name}`,
-      Points: standingsArray[x][1].peterson_points
+      Points: standingsArray[x][1].peterson_points,
+      'Total Pins': standingsArray[x][1].total_pins
     };
 
     x += 1;

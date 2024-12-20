@@ -7,7 +7,7 @@ export const calculateHomeHdcp = (awayAvg: number, homeAvg: number, percentage: 
   return homeAvg > awayAvg ? hdcp * -1 : hdcp;
 };
 
-export const calculateTeamPoints = (awayTeam: ITeam, homeTeam: ITeam, pointsPerGame: number, pointsForTotal: number, allowBonusPoint = false): {awayTeamPoints: number, homeTeamPoints: number} => {
+export const calculateTeamPoints = (awayTeam: ITeam, homeTeam: ITeam, pointsPerGame: number, pointsForTotal: number, allowBonusPoint = false): {awayTeamPoints: number, awayTotalPins: number, homeTeamPoints: number, homeTotalPins: number} => {
   let awayTeamAvg = 0,
     awayTeamGame1 = 0,
     awayTeamGame2 = 0,
@@ -42,7 +42,7 @@ export const calculateTeamPoints = (awayTeam: ITeam, homeTeam: ITeam, pointsPerG
   const homeTeamHdcp = calculateHomeHdcp(awayTeamAvg, homeTeamAvg, 90),
     awayTeamTotal = awayTeamGame1 + awayTeamGame2 + awayTeamGame3,
     homeTeamTotal = homeTeamGame1 + homeTeamGame2 + homeTeamGame3 + (homeTeamHdcp * 3);
-  
+
   let bonusPointGame1 = 0,
     bonusPointGame2 = 0,
     bonusPointGame3 = 0;
@@ -99,5 +99,10 @@ export const calculateTeamPoints = (awayTeam: ITeam, homeTeam: ITeam, pointsPerG
     homeTeamPoints += pointsForTotal/2;
   }
   
-  return { awayTeamPoints, homeTeamPoints };
+  return {
+    awayTeamPoints,
+    awayTotalPins: awayTeamGame1 + awayTeamGame2 + awayTeamGame3 + (homeTeamHdcp < 0 ? homeTeamHdcp * 3 * -1 : 0),
+    homeTeamPoints,
+    homeTotalPins: homeTeamGame1 + homeTeamGame2 + homeTeamGame3 + (homeTeamHdcp > 0 ? homeTeamHdcp * 3 : 0)
+  };
 };

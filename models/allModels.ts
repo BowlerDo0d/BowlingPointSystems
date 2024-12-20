@@ -15,7 +15,9 @@ export interface ITeam {
 
 export interface IPoints {
   awayPoints: number;
+  awayTotalPins: number;
   homePoints: number;
+  homeTotalPins: number;
 }
 
 export interface IPairing {
@@ -29,10 +31,12 @@ export interface ISchedule {
 }
 
 export interface IStanding {
+  team_number: number;
   team_name: string;
   mahony_points: number;
   peterson_points: number;
   traditional_points: number;
+  total_pins: number;
 }
 
 export interface IStandings {

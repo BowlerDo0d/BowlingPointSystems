@@ -48,7 +48,9 @@ export const getMahonyStandings = (awayTeam: ITeam, homeTeam: ITeam): IPoints =>
 
   return {
     awayPoints,
-    homePoints
+    awayTotalPins: 0,
+    homePoints,
+    homeTotalPins: 0
   };
 };
 
@@ -62,6 +64,12 @@ export const sortAndDisplay = (standings: IStandings): void => {
       return 1;
     }
 
+    if (a[1].total_pins > b[1].total_pins) {
+      return -1;
+    } else if (a[1].total_pins < b[1].total_pins) {
+      return 1;
+    }
+
     return 0;
   });
 
@@ -71,7 +79,8 @@ export const sortAndDisplay = (standings: IStandings): void => {
   while (x < standingsArray.length) {
     sortedStandings[x+1] = {
       Team: `${(standingsArray[x][0]+'   ').slice(0, 2)} - ${standingsArray[x][1].team_name}`,
-      Points: standingsArray[x][1].mahony_points
+      Points: standingsArray[x][1].mahony_points,
+      'Total Pins': standingsArray[x][1].total_pins
     };
 
     x += 1;

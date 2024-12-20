@@ -1,4 +1,4 @@
-import { IPoints, IStanding, IStandings, ITeam } from '../models/allModels';
+import { IPairing, IPoints, IStanding, IStandings, ITeam } from '../models/allModels';
 import { calculateTeamPoints } from './shared';
 
 const POINTS_PER_GAME = 2,
@@ -15,30 +15,61 @@ export const getTraditionalStandings = (awayTeam: ITeam, homeTeam: ITeam): IPoin
 
   return {
     awayPoints,
-    homePoints
+    awayTotalPins: 0,
+    homePoints,
+    homeTotalPins: 0
   };
 };
 
-export const sortAndDisplay = (standings: IStandings): void => {
-  const standingsArray: [number, IStanding][] = Object.entries(standings) as any;
+export const generatePostionRound = (standings: IStandings): IPairing[] => {
+  const sortedStandings = [...sortTeams(standings)],
+    pairings: IPairing[] = [];
 
+  let position = 0;
+  while (position < 32) {
+    pairings.push({
+      away: sortedStandings[position][1].team_number,
+      home: sortedStandings[position + 1][1].team_number
+    });
+
+    position += 2;
+  }
+
+  return pairings;
+};
+
+export const sortTeams = (standings: IStandings): [number, IStanding][] => {
+  const standingsArray: [number, IStanding][] = Object.entries(standings) as any;
+  
   standingsArray.sort((a: [number, IStanding], b: [number, IStanding]): number => {
     if (a[1].traditional_points > b[1].traditional_points) {
       return -1;
     } else if (a[1].traditional_points < b[1].traditional_points) {
       return 1;
     }
+    
+    if (a[1].total_pins > b[1].total_pins) {
+      return -1;
+    } else if (a[1].total_pins < b[1].total_pins) {
+      return 1;
+    }
 
     return 0;
   });
 
+  return standingsArray;
+}
+
+export const sortAndDisplay = (standings: IStandings): void => {
+  const standingsArray = sortTeams(standings);
   const sortedStandings: {[key: number]: {}} = {};
 
   let x = 0;
   while (x < standingsArray.length) {
     sortedStandings[x+1] = {
       Team: `${(standingsArray[x][0]+'   ').slice(0, 2)} - ${standingsArray[x][1].team_name}`,
-      Points: standingsArray[x][1].traditional_points
+      Points: standingsArray[x][1].traditional_points,
+      'Total Pins': standingsArray[x][1].total_pins
     };
 
     x += 1;
