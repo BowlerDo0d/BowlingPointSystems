@@ -488,7 +488,72 @@
   },
   {
     "week": 8,
-    "pairings": []
+    "pairings": [
+      {
+        "away": 1,
+        "home": 3
+      },
+      {
+        "away": 27,
+        "home": 10
+      },
+      {
+        "away": 22,
+        "home": 20
+      },
+      {
+        "away": 28,
+        "home": 7
+      },
+      {
+        "away": 15,
+        "home": 19
+      },
+      {
+        "away": 8,
+        "home": 26
+      },
+      {
+        "away": 4,
+        "home": 31
+      },
+      {
+        "away": 5,
+        "home": 25
+      },
+      {
+        "away": 32,
+        "home": 13
+      },
+      {
+        "away": 21,
+        "home": 18
+      },
+      {
+        "away": 2,
+        "home": 9
+      },
+      {
+        "away": 12,
+        "home": 17
+      },
+      {
+        "away": 6,
+        "home": 11
+      },
+      {
+        "away": 24,
+        "home": 29
+      },
+      {
+        "away": 14,
+        "home": 16
+      },
+      {
+        "away": 23,
+        "home": 30
+      }
+    ]
   },
   {
     "week": 9,
